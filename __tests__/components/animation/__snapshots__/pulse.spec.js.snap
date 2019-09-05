@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pulse Rendering should match to snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "position": "absolute",
+      },
+      Object {
+        "height": 200,
+        "marginLeft": -100,
+        "marginTop": -100,
+        "width": 200,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#72b003",
+        "borderColor": "#72b003",
+        "borderRadius": 100,
+        "borderWidth": 2,
+        "height": 100,
+        "opacity": 0.3,
+        "width": 100,
+      }
+    }
+  />
+</View>
+------------HTML PREVIEW---------------
+<View style="0:[object Object];1:[object Object];">
+  <View style="background-color:#72b003;border-color:#72b003;border-radius:100px;border-width:2px;height:100px;opacity:0.3;width:100px;"></View>
+</View>
+`;
