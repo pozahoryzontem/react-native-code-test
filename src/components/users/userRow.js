@@ -5,7 +5,7 @@ import { userRowStyles } from './users.style';
 
 const localImage = require('../../assets/images/defaultAvatar.jpg');
 
-export default class UserRow extends React.Component {
+export default class UserRow extends React.PureComponent {
   constructor(props) {
     super(props);
     const { avatar } = this.props;

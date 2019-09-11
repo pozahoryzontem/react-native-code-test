@@ -11,7 +11,7 @@ const initialState = {
 function userReducer(state = initialState, action) {
   switch (action.type) {
     case actionTypes.ADDED_USERS: {
-      return { ...state, users: state.users.concat(action.payload) };
+      return { ...state, users: [...new Set(state.users.concat(action.payload))] };
     }
     case actionTypes.CAN_LOAD_USERS: {
       return { ...state, canLoadUsers: action.payload };
